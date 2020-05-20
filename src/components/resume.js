@@ -19,19 +19,19 @@ class Resume extends Component {
 
                             <h2 style={{paddingTop: '2em'}}>Vsevolod Pavlenko</h2>
                             <h4 style={{color: 'grey'}}>Front-end developer</h4>
-                            <hr style={{borderTop: '3px solid #833fb2', width: '50%', margin: 'auto'}}/>
+                            <hr className='hr_line'/>
                             <p>njfsdnfjd kdfsn jf njsdkf njksdf njdsfn jskdnfjsdkfn jsdfn jdskfn jkdsnf jsdn fjkdsnf
                                 jsdn ffnds jkf nsdjk fndsjk fnjsdknf jkdsnf jksd</p>
-                            <hr style={{borderTop: '3px solid #833fb2', width: '50%', margin: 'auto'}}/>
+                            <hr className='hr_line' style={{}}/>
                             <h5>Address</h5>
-                            <p>soloma</p>
+                            <p>Kiev, Kaxi Bendukidze 2</p>
                             <h5>Phone</h5>
-                            <p>+380997876739</p>
+                            <p>+38 (099) 787-67-39</p>
                             <h5>Email</h5>
                             <p>seva--seva@ukr.net</p>
                             <h5>Web</h5>
                             <p>my web.com</p>
-                            <hr style={{borderTop: '3px solid #833fb2', width: '50%', margin: 'auto'}}/>
+                            <hr className='hr_line' />
                         </div>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
@@ -39,17 +39,17 @@ class Resume extends Component {
 
 
                         <Education
-                            startYear={2012}
-                            endYear={2016}
-                            schoolName="My University"
-                            schoolDescription="dsjkfldsf dfkls jsdfk dskl jfdks jfsd ksdfj klfsd "
+                            startYear={2015}
+                            endYear={2018}
+                            schoolName="State University of Telecommunications"
+                            schoolDescription="Department of Computer Engineering trains computer engineers to design, build and configure computer systems "
                         />
 
 
                         <Education
-                            startYear={2007}
-                            endYear={2009}
-                            schoolName="My 2nd University"
+                            startYear={2018}
+                            endYear={2020}
+                            schoolName="State University of Telecommunications"
                             schoolDescription="dsjkfldsf dfkls jsdfk dskl jfdks jfsd ksdfj klfsd "
                         />
                         <hr style={{borderTop: '3px solid #e22947'}}/>
@@ -57,28 +57,34 @@ class Resume extends Component {
                         <h2>Expirience</h2>
 
                         <Experience
-                            startYear={2009}
-                            endYear={2012}
-                            jobName="First Job"
-                            jobDescription="sad asd sda asd asd sad sa dsad asd asd sad asd asd as "
+                            startYear={2018}
+                            endYear={2020}
+                            jobName="HoldGroup24 - holding company"
+                            jobDescription="Development of web sites, landing pages, online stores"
+                            jobDescriptionAbout1="Stretch the finished layout for different CMS;"
+                            jobDescriptionAbout3="Maintenance and support of existing projects;"
+                            jobDescriptionAbout2="Development of custom solutions;"
                         />
 
                         <Experience
-                            startYear={2012}
-                            endYear={2016}
-                            jobName="Second Job"
-                            jobDescription="sad asd sda asd asd sad sa dsad asd asd sad asd asd as "
+                            startYear={2019}
+                            endYear={2019}
+                            jobName="Freelance (Rabinovich TV)"
+                            jobDescription="Development, refinement and support of the news portal"
+                            jobDescriptionAbout1="Creation of new functionality and integration with the administration panel;"
+                            jobDescriptionAbout2="Stretch the finished layout on php framework Laravel;"
+                            jobDescriptionAbout3="Redesign, website performance acceleration, add plugins;"
                         />
                         <hr style={{borderTop: '3px solid #e22947'}}/>
 
                         <h2>Skills</h2>
                         <Skills
-                            skill="javascript"
+                            skill="HTML/CSS"
                             progress={100}
                         />
 
                         <Skills
-                            skill="HTML/CSS"
+                            skill="javascript"
                             progress={80}
                         />
 

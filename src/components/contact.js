@@ -26,7 +26,7 @@ class Contact extends Component {
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                                         <i className="fa fa-phone-square" aria-hidden="true"/>
-                                        (123) 456-78-92
+                                        +38 (099) 787-67-39
                                     </ListItemContent>
                                 </ListItem>
 
@@ -47,7 +47,7 @@ class Contact extends Component {
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                                         <i className="fa fa-skype" aria-hidden="true"/>
-                                        MySkypeID
+                                        Vsevolod Pavlenko
                                     </ListItemContent>
                                 </ListItem>
 
