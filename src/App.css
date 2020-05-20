@@ -82,6 +82,7 @@
     font-size: 66px;
     font-weight: bold;
     color: #fff;
+    padding-top: 25px;
 }
 
 .banner-text hr {
@@ -94,6 +95,7 @@
     color: white;
     font-size: 20px;
     padding: 1em;
+    margin-top: 10px;
 }
 
 .social-links {
@@ -101,6 +103,7 @@
     justify-content: space-between;
     width: 50%;
     margin: auto;
+    padding-bottom: 15px;
 }
 
 .social-links i {
@@ -113,4 +116,13 @@
     border-top: 3px solid #833fb2;
     width: 50%;
     margin: auto;
+}
+
+.mdl-button a{
+    color: #111;
+    text-decoration: none;
+}
+
+.mdl-list__item{
+    padding: 11px 16px;
 }

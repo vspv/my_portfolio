@@ -19,10 +19,7 @@ class Resume extends Component {
 
                             <h2 style={{paddingTop: '2em'}}>Vsevolod Pavlenko</h2>
                             <h4 style={{color: 'grey'}}>Front-end developer</h4>
-                            <hr className='hr_line'/>
-                            <p>njfsdnfjd kdfsn jf njsdkf njksdf njdsfn jskdnfjsdkfn jsdfn jdskfn jkdsnf jsdn fjkdsnf
-                                jsdn ffnds jkf nsdjk fndsjk fnjsdknf jkdsnf jksd</p>
-                            <hr className='hr_line' style={{}}/>
+                            <hr className='hr_line' />
                             <h5>Address</h5>
                             <p>Kiev, Kaxi Bendukidze 2</p>
                             <h5>Phone</h5>
@@ -42,7 +39,8 @@ class Resume extends Component {
                             startYear={2015}
                             endYear={2018}
                             schoolName="State University of Telecommunications"
-                            schoolDescription="Department of Computer Engineering trains computer engineers to design, build and configure computer systems "
+                            schoolDescriptionDiplom="(Bachelor's diploma)"
+                            schoolDescription="Department of Computer Engineering trains computer engineers to design, build and configure computer systems"
                         />
 
 
@@ -50,7 +48,8 @@ class Resume extends Component {
                             startYear={2018}
                             endYear={2020}
                             schoolName="State University of Telecommunications"
-                            schoolDescription="dsjkfldsf dfkls jsdfk dskl jfdks jfsd ksdfj klfsd "
+                            schoolDescriptionDiplom="(Master's degree)"
+                            schoolDescription="Department of Computer Engineering trains computer engineers to design, build and configure computer systems"
                         />
                         <hr style={{borderTop: '3px solid #e22947'}}/>
 
@@ -80,24 +79,23 @@ class Resume extends Component {
                         <h2>Skills</h2>
                         <Skills
                             skill="HTML/CSS"
-                            progress={100}
+                            progress={75}
                         />
 
                         <Skills
                             skill="javascript"
-                            progress={80}
+                            progress={40}
                         />
 
                         <Skills
-                            skill="NodeJS"
-                            progress={50}
+                            skill="React"
+                            progress={33}
                         />
 
                         <Skills
                             skill="React"
                             progress={25}
                         />
-
 
                     </Cell>
                 </Grid>

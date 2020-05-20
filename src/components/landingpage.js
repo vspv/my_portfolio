@@ -23,25 +23,18 @@ class Landing extends Component {
 
                             <div className="social-links">
 
+                                <a href="https://github.com/vspv" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-github-square" rel="noopener noreferrer" aria-hidden="true"/>
+                                </a>
+
+                                <a href="https://t.me/vsvpvl" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-telegram" rel="noopener noreferrer" aria-hidden="true"/>
+                                </a>
 
                                 <a href="https://www.linkedin.com/in/vsevolod-pavlenko-68b4a2175/" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-linkedin-square" rel="noopener noreferrer" aria-hidden="true"/>
                                 </a>
 
-
-                                <a href="https://github.com/vspv" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-github-square" rel="noopener noreferrer" aria-hidden="true"/>
-                                </a>
-
-
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-free-code-camp" rel="noopener noreferrer" aria-hidden="true"/>
-                                </a>
-
-
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-youtube-square" rel="noopener noreferrer" aria-hidden="true"/>
-                                </a>
                             </div>
 
                         </div>
