@@ -3,6 +3,7 @@ import {Cell, Grid} from "react-mdl";
 import Education from './education';
 import Experience from './experiance';
 import Skills from './skills'
+import userIcons from './images/user_icon.jpg';
 
 class Resume extends Component {
     render() {
@@ -12,12 +13,12 @@ class Resume extends Component {
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
                             <img
-                                src="https://junglejobs.ru/assets/img/male-avatar.png"
+                                src={userIcons}
                                 alt="avatar"
-                                style={{height: '200px'}}
+                                style={{height: '400px'}}
                             />
 
-                            <h2 style={{paddingTop: '2em'}}>Vsevolod Pavlenko</h2>
+                            <h2 style={{paddingTop: '10px'}}>Vsevolod Pavlenko</h2>
                             <h4 style={{color: 'grey'}}>Front-end developer</h4>
                             <hr className='hr_line' />
                             <h5>Address</h5>

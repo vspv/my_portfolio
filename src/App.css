@@ -126,3 +126,12 @@
 .mdl-list__item{
     padding: 11px 16px;
 }
+
+.list_item_a {
+    color: #111;
+    text-decoration: none;
+}
+
+.list_item_a:hover {
+    color: #00caea!important;
+}

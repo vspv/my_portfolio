@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {List, ListItem, ListItemContent} from "react-mdl";
+import {List, ListItem} from "react-mdl";
 
 class About extends Component{
     render() {
@@ -8,12 +8,17 @@ class About extends Component{
                 <div>
                     <h1 style={{marginLeft: 10}}>Personal skills</h1>
                     <List style={{listStyleType: "upper-roman"}}>
-                        <ListItem>Front-End: HTML, CSS (SASS/SCSS), Bootstrap, JavaScript, jQuery</ListItem>
-                        <ListItem>Back-End: PHP (frameworks Laravel 5, Yii2 ), Mysql</ListItem>
-                        <ListItem>CMS: WordPress, MODX.</ListItem>
-                        <ListItem>GIT, GITHUB</ListItem>
-                        <ListItem>Adobe Photoshop</ListItem>
+                        <ListItem>Skills: HTML5, CSS3, JavaScript, React, PHP;</ListItem>
+                        <ListItem>Tools: GitHub, WebStorm, Adobe Photoshop, BEM, Bootstrap 4, Sass, Gulp, WebPack, NPM, jQuery, mySQL;</ListItem>
+                        <ListItem>CMS: WordPress, Modx;</ListItem>
+                        <ListItem>In progress: Node.js, UX / UI;</ListItem>
+                        <ListItem>Soft skills: good communication, teamwork, willingness to learn, perseverance, attentiveness to details</ListItem>
+                        <ListItem>HTML5 (2 years experience)<p> Above average, currently using.</p></ListItem>
+                        <ListItem>CSS3 (2 years experience)<p> Above average, currently using.</p></ListItem>
+                        <ListItem>JavaScript (1,5 year experience)<p> Above average, currently using.</p></ListItem>
+                        <ListItem> React (0,5 year experience)<p> Medium, currently using.</p></ListItem>
                     </List>
+
 
                 </div>
             </div>

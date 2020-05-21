@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Cell, Grid, List, ListItem, ListItemContent} from "react-mdl";
+import userIcons from './images/user_icon.jpg';
 
 class Contact extends Component {
     render() {
@@ -9,13 +10,11 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>Vsevolod Pavlenko</h2>
                         <img
-                            src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+                            src={userIcons}
                             alt="avatar"
-                            style={{height: '250px'}}
+                            style={{height: '330px'}}
                         />
-                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>dsuiofnsidofnisdjf idsjfnidsafndis
-                            ndsifjfdsi nfdsni jsdi fnjdsfj kn dsfnjdfsnjskdfn sdf njksdfnjksda fsdjkf sdjkfn sdkjf
-                            nsdfjnk sdjkfn dsjknfsdjknfdsjk fsdkjfnsdfkj</p>
+                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em', marginTop: '15px'}}>I’m looking for an opportunity to join the team of JavaScript/React developers that are the same mad of creating the best user experience as me. I want to grow and evolve in this direction to become an experienced and mature Front-end developer.</p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
@@ -25,22 +24,37 @@ class Contact extends Component {
                             <List>
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                        <i className="fa fa-phone-square" aria-hidden="true"/>
-                                        +38 (099) 787-67-39
+                                        <a className="list_item_a" href="tel:+380997876739" rel="noopener noreferrer" target="_blank">
+                                            <i className="fa fa-phone-square" aria-hidden="true"/>
+                                            +38 (099) 787-67-39
+                                        </a>
                                     </ListItemContent>
                                 </ListItem>
 
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                        <i className="fa fa-envelope" aria-hidden="true"/>
-                                        seva--seva@ukr.net
+                                        <a className="list_item_a" href="https://t.me/vsvpvl" rel="noopener noreferrer" target="_blank">
+                                            <i className="fa fa-telegram" aria-hidden="true"/>
+                                            @vsvpvl
+                                        </a>
                                     </ListItemContent>
                                 </ListItem>
 
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                        <i className="fa fa-skype" aria-hidden="true"/>
-                                        Vsevolod Pavlenko
+                                        <a className="list_item_a" href="mailto:seva--seva@ukr.net" rel="noopener noreferrer" target="_blank">
+                                            <i className="fa fa-envelope" aria-hidden="true"/>
+                                            seva--seva@ukr.net
+                                        </a>
+                                    </ListItemContent>
+                                </ListItem>
+
+                                <ListItem>
+                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                        <a className="list_item_a" href="https://join.skype.com/invite/ncKStgeixxdg" rel="noopener noreferrer" target="_blank">
+                                            <i className="fa fa-skype" aria-hidden="true"/>
+                                            Vsevolod Pavlenko
+                                        </a>
                                     </ListItemContent>
                                 </ListItem>
 
