@@ -5,7 +5,7 @@ class Experience extends Component {
     render() {
         return (
             <Grid>
-                <Cell col={4}>
+                <Cell style={{margin: "auto", textAlign: "center"}} col={4}>
                     <p>{this.props.startYear}-{this.props.endYear}</p>
                 </Cell>
                 <Cell col={8}>

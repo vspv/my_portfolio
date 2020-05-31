@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
 import {Cell, Grid} from "react-mdl";
-import Education from './education';
-import Experience from './experiance';
-import Skills from './skills'
-import userIcons from './images/user_icon.jpg';
+import Education from '../component/education';
+import Experience from '../component/experiance';
+import Skills from '../component/skills'
+import userIcons from '../../../public/images/user_icon.jpg';
+import diplBacImage from '../../../public/images/dipl_bak.jpg';
+import diplMagImage from '../../../public/images/dipl_mag.jpg';
 
 class Resume extends Component {
     render() {
@@ -20,7 +22,7 @@ class Resume extends Component {
 
                             <h2 style={{paddingTop: '10px'}}>Vsevolod Pavlenko</h2>
                             <h4 style={{color: 'grey'}}>Front-end developer</h4>
-                            <hr className='hr_line' />
+                            <hr className='hr_line'/>
                             <h5>Address</h5>
                             <p>Kiev, Kaxi Bendukidze 2</p>
                             <h5>Phone</h5>
@@ -28,12 +30,12 @@ class Resume extends Component {
                             <h5>Email</h5>
                             <p>seva--seva@ukr.net</p>
                             <h5>Web</h5>
-                            <p>my web.com</p>
-                            <hr className='hr_line' />
+                            <p>vspv.github.io/portfolio</p>
+                            <hr className='hr_line'/>
                         </div>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
-                        <h2>Education</h2>
+                        <h2 style={{textAlign:"center"}}>Education</h2>
 
 
                         <Education
@@ -41,7 +43,8 @@ class Resume extends Component {
                             endYear={2018}
                             schoolName="State University of Telecommunications"
                             schoolDescriptionDiplom="(Bachelor's diploma)"
-                            schoolDescription="Department of Computer Engineering trains computer engineers to design, build and configure computer systems"
+                            schoolDescription="Professional qualification: IT specialist"
+                            universityDiplom={diplBacImage}
                         />
 
 
@@ -50,11 +53,12 @@ class Resume extends Component {
                             endYear={2020}
                             schoolName="State University of Telecommunications"
                             schoolDescriptionDiplom="(Master's degree)"
-                            schoolDescription="Department of Computer Engineering trains computer engineers to design, build and configure computer systems"
+                            schoolDescription="Professional qualification: Computer systems analyst"
+                            universityDiplom={diplMagImage}
                         />
                         <hr style={{borderTop: '3px solid #e22947'}}/>
 
-                        <h2>Expirience</h2>
+                        <h2 style={{textAlign:"center"}}>Expirience</h2>
 
                         <Experience
                             startYear={2018}
@@ -77,14 +81,14 @@ class Resume extends Component {
                         />
                         <hr style={{borderTop: '3px solid #e22947'}}/>
 
-                        <h2>Skills</h2>
+                        <h2  style={{textAlign:"center"}}   >Skills</h2>
                         <Skills
                             skill="HTML/CSS"
                             progress={75}
                         />
 
                         <Skills
-                            skill="javascript"
+                            skill="Javascript"
                             progress={40}
                         />
 
@@ -94,8 +98,8 @@ class Resume extends Component {
                         />
 
                         <Skills
-                            skill="React"
-                            progress={25}
+                            skill="PHP/MySQL"
+                            progress={40}
                         />
 
                     </Cell>

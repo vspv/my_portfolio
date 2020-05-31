@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Cell, Grid, List, ListItem, ListItemContent} from "react-mdl";
-import userIcons from './images/user_icon.jpg';
+import userIcons from '../../../public/images/user_icon.jpg';
 
 class Contact extends Component {
     render() {
