@@ -5,11 +5,11 @@ class About extends Component {
         return (
             <div className="about_background">
                 <div>
-                    <div style={{float: 'left', marginLeft: '10%',}}>
+                    <div className="about_leftside">
                         <h1 style={{marginLeft: 10, marginBottom: '-15px'}}>Personal skills</h1>
                         <ul>
                             <li className="dots">Skills: HTML5, CSS3, JavaScript, React, PHP;</li>
-                            <li className="dots">Tools: Sass, GitHub, Adobe Photoshop, BEM, Bootstrap,
+                            <li className="dots">Tools: SASS, GitHub, Adobe Photoshop, BEM, Bootstrap,
                                 WebPack, NPM, jQuery, mySQL;
                             </li>
                             <li className="dots">CMS: WordPress, ModX;</li>
@@ -19,8 +19,8 @@ class About extends Component {
 
                     <hr className='hr_line'/>
 
-                    <div style={{float: 'right', marginRight: '10%'}}>
-                        <h1 style={{marginLeft: 10, marginBottom: '-15px'}}>Personal skills</h1>
+                    <div className="about_rightside">
+                        <h1 style={{marginLeft: 10, marginBottom: '-15px'}}>Personal experience</h1>
                         <ul>
                             <li className="dots">HTML5 (2 years experience) - Above average, currently using.</li>
                             <li className="dots">CSS3 (2 years experience) - Above average, currently using.</li>
